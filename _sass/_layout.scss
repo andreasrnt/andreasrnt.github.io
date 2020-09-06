@@ -8,6 +8,8 @@
 
 #masthead {
 	padding: $gutter;
+  background-color: black;
+  color: white;
 	z-index: 5;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
@@ -26,7 +28,7 @@
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
-	color: $black;
+	color: $white;
 	font-family: $alt-font;
 	font-weight: 700;
 	@include font-size(20,no);
@@ -85,6 +87,7 @@
 
 .top-menu {
 	display: none;
+  color: white;
 	position: relative;
 	@include media($medium) {
 		@include span-columns(12);
@@ -103,9 +106,9 @@
 	li {
 		a {
 			font-weight: 700;
+      color: white;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $black;
 			text-transform: uppercase;
 		}
 	}

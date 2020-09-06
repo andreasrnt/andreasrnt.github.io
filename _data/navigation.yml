@@ -1,6 +1,13 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Portfolio
+  url: /portfolio/
+
+- title: LinkedIn
+  url: https://www.linkedin.com/in/andreas-rinanto-2b0a2412a/
+
+- title: Github
+  url: https://github.com/andreasrnt
+
+- title: HackerRank
+  url: https://hackerrank.com/andreasrnt
